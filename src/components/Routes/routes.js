@@ -1,0 +1,15 @@
+export const routes = {
+  home: "/",
+  register: "/auth/register",
+  login: "/auth/login",
+  ownerProfile: "/account/owner/profile",
+  ownerPostPuppy: "/account/owner/post-puppy",
+  ownerAvailability: "/account/owner/availability",
+  ownerMyPups: "/account/owner/my-pups",
+  renterAppointments: "/account/renter/appointments",
+  renterProfile: "/account/renter/profile",
+  renterAllPups: "/account/renter/all-pups",
+  allPups: "/all/all-pups",
+  singleProfileWithId: "/all/profile",
+  singlePupWithId: "/view/single-pup",
+};
